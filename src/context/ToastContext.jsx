@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 import { createContext, useContext, useState } from 'react';
 
 const ToastContext = createContext();
@@ -63,3 +61,4 @@ const styles = {
   info: { background: '#2563eb' },
   warning: { background: '#d97706' },
 };
+
