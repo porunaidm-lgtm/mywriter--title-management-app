@@ -36,7 +36,7 @@ export default function AddBookForm() {
       <input
         value={part}
         onChange={(e) => setPart(e.target.value)}
-        placeholder="Optional — Part I / Part II"
+        placeholder="Optional — I / II / III"
         style={{ marginLeft: 8 }}
       />
 
@@ -46,3 +46,4 @@ export default function AddBookForm() {
     </form>
   );
 }
+
