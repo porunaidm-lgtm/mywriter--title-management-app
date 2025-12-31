@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 export default function SearchBox({ search, setSearch }) {
   return (
     <input
@@ -10,3 +8,4 @@ export default function SearchBox({ search, setSearch }) {
     />
   );
 }
+
